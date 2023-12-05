@@ -1,3 +1,13 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home',
+}
+
 export default function Home() {
-  return <h1>Ignite Shop 2.0</h1>
+  return (
+    <>
+      <h1>Ignite Shop 2.0</h1>
+    </>
+  )
 }

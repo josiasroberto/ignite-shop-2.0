@@ -12,14 +12,21 @@ const config: Config = {
       light: '#00B37E',
       background: '#121214',
       elements: '#202024',
+      icon: '#8D8D99',
       text: '#C4C4CC',
       title: '#E1E1E6',
-      white: '#ffffff',
+      white: '#FFFFFF',
     },
 
     extend: {
       fontFamily: {
         sans: 'var(--font-roboto)',
+      },
+      padding: {
+        '34': '8.5rem',
+      },
+      borderWidth: {
+        '3': '3px',
       },
     },
   },
