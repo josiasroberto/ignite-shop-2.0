@@ -6,7 +6,7 @@ export default function StoreLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="mx-auto px-34 w-full max-w-[1600px] flex flex-col gap-8">
+    <div className="mx-auto w-full max-w-[1600px] flex flex-col gap-8 pb-8">
       <Header />
       {children}
     </div>

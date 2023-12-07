@@ -16,6 +16,7 @@ const config: Config = {
       text: '#C4C4CC',
       title: '#E1E1E6',
       white: '#FFFFFF',
+      'bg-footer-card': 'rgba(32, 32, 36, 0.90)',
     },
 
     extend: {
