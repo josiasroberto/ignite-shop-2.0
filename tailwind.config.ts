@@ -29,6 +29,9 @@ const config: Config = {
       borderWidth: {
         '3': '3px',
       },
+      width: {
+        '34': '8.5rem',
+      },
     },
   },
   plugins: [],
