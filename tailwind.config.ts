@@ -30,7 +30,12 @@ const config: Config = {
         '3': '3px',
       },
       width: {
+        '25': '6.25rem',
         '34': '8.5rem',
+        card: '43.5rem',
+      },
+      height: {
+        card: '41rem',
       },
     },
   },

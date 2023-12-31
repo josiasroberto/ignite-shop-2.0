@@ -31,18 +31,19 @@ export function Slider() {
   return (
     <>
       <div className="navigation-wrapper">
-        <div className="absolute z-10 h-[920px] w-34 bg-gradient-to-l from-background/0  to-background/100" />
-        <div className="absolute right-0 z-10 h-[920px] w-34 bg-gradient-to-r from-background/0  to-background/100" />
-        <div ref={sliderRef} className="keen-slider rounded-lg">
+        <div className="absolute z-10 h-card w-34 bg-gradient-to-l from-background/0  to-background/100" />
+        <div className="absolute right-0 z-10 h-card w-34 bg-gradient-to-r from-background/0  to-background/100" />
+
+        <div ref={sliderRef} className="keen-slider">
           <Link
             href="/"
-            className="keen-slider__slide group relative flex h-[920px] w-[920px] items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
+            className="keen-slider__slide group relative flex h-card w-card items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
           >
             <Image
               className="object-cover"
               src="/camisetas/1.png"
-              width={920}
-              height={920}
+              width={696}
+              height={656}
               quality={100}
               alt=""
             />
@@ -61,13 +62,13 @@ export function Slider() {
           </Link>
           <Link
             href="/"
-            className="keen-slider__slide group relative flex h-[920px] w-[920px] items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
+            className="keen-slider__slide group relative flex h-card w-card items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
           >
             <Image
               className="object-cover"
               src="/camisetas/1.png"
-              width={920}
-              height={920}
+              width={696}
+              height={656}
               quality={100}
               alt=""
             />
@@ -86,63 +87,13 @@ export function Slider() {
           </Link>
           <Link
             href="/"
-            className="keen-slider__slide group relative flex h-[920px] w-[920px] items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
+            className="keen-slider__slide group relative flex h-card w-card items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
           >
             <Image
               className="object-cover"
               src="/camisetas/1.png"
-              width={920}
-              height={920}
-              quality={100}
-              alt=""
-            />
-
-            <footer className="absolute bottom-1 left-1 right-1 flex translate-y-32 items-center justify-between rounded-md bg-bg-footer-card p-8 opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100 group-focus:translate-y-0 group-focus:opacity-100">
-              <div className="flex flex-col">
-                <strong className="text-xl leading-[160%] text-title">
-                  Camiseta Beyond the Limits
-                </strong>
-                <span className="text-2xl font-bold leading-[140%] text-light">
-                  R$ 79,90
-                </span>
-              </div>
-              <AddToCartButton />
-            </footer>
-          </Link>
-          <Link
-            href="/"
-            className="keen-slider__slide group relative flex h-[920px] w-[920px] items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
-          >
-            <Image
-              className="object-cover"
-              src="/camisetas/1.png"
-              width={920}
-              height={920}
-              quality={100}
-              alt=""
-            />
-
-            <footer className="absolute bottom-1 left-1 right-1 flex translate-y-32 items-center justify-between rounded-md bg-bg-footer-card p-8 opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100 group-focus:translate-y-0 group-focus:opacity-100">
-              <div className="flex flex-col">
-                <strong className="text-xl leading-[160%] text-title">
-                  Camiseta Beyond the Limits
-                </strong>
-                <span className="text-2xl font-bold leading-[140%] text-light">
-                  R$ 79,90
-                </span>
-              </div>
-              <AddToCartButton />
-            </footer>
-          </Link>
-          <Link
-            href="/"
-            className="keen-slider__slide group relative flex h-[920px] w-[920px] items-center justify-center overflow-hidden rounded-lg bg-gradient-to-b from-[#1ea483] to-[#7465d4]"
-          >
-            <Image
-              className="object-cover"
-              src="/camisetas/1.png"
-              width={920}
-              height={920}
+              width={696}
+              height={656}
               quality={100}
               alt=""
             />
